@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Allroutes from "./components/Allroutes";
 
 const App = () => {
   return (
-    <div><h1 className="text-3xl font-bold underline text-blue-800">
-    Hello world!
-  </h1></div>
-  )
-}
+    <div>
+     <Allroutes />
+    </div>
+  );
+};
 
 export default App;
